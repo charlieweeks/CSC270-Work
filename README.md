@@ -6,16 +6,16 @@ A citable digital edition.
 
 ## Bibliography
 
-*The Count of Monte Cristo*, By Alexandre Dumas. Language: English. Published: August 28th, 1844 through January 15th, 1846, serialization. Translated From The Greek Of Aristotle By William Ellis, A.M. London & Toronto Published By J M Dent & Sons Ltd. & In New York By E. P. Dutton &. Co. First Issue Of This Edition 1912 Reprinted 1919, 1923, 1928
+*The Count of Monte Cristo*, By Alexandre Dumas. Language: English. Anonymous translation first published by Chapman and Hall in 1864. Original (French) published August 28th, 1844 through January 15th, 1846, serialization.
 
 Plain-text, citable edition following the protocols of the [CITE Architecture](http://cite-architecture.org).
 
-Edited, 10/18/2019
+Edited 11/1/2019.
 
 
 ## Character Validation
 
-The following is a complete inventory of the characters present in this text:
+This text includes some phrases, quotes, and names in their original French and Greek. The following is a complete inventory of the characters present in this text:
 
 
 | Char | Unicode Hex |
