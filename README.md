@@ -15,7 +15,7 @@ Edited 11/1/2019.
 
 ## Character Validation
 
-This text includes some phrases, quotes, and names in their original French and Greek. The following is a complete inventory of the characters present in this text:
+This text includes some phrases, quotes, and names in French and Greek. The following is a complete inventory of the characters present in this text:
 
 
 | Char | Unicode Hex |
