@@ -18,7 +18,7 @@ Edited 11/1/2019.
 This text includes some phrases and quotes in other languages (French, Greek, Latin, etc.). It also includes formal names for people and places which are not anglicized. The following is a complete inventory of the characters present in this text:
 
 
-#####Format: `character` (Unicode hex)
+##### Format: `character` (Unicode hex)
 
 
 | Character | Character | Character | Character | Character |
