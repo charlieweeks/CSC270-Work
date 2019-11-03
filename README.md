@@ -19,7 +19,9 @@ This text includes some phrases and quotes in other languages (French, Greek, La
 
 
 #####Format: `character` (Unicode hex)
-|  |  |  |  |  |
+
+
+| Character | Character | Character | Character | Character |
 |-----------|-----------|-----------|-----------|-----------|
 | `space` (20) | `!` (21) | `&` (26) | `(` (28) | `)` (29) |
 | `,` (2c) | `-` (2d) | `.` (2e) | `0` (30) | `1` (31) |
