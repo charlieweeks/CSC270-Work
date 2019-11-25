@@ -15,7 +15,7 @@ Edited 11/1/2019.
 
 ## Character Validation
 
-This text includes some phrases and quotes in other languages (French, Greek, Latin, etc.). It also includes formal names for people and places which are not anglicized. The following is a complete inventory of the characters present in this text:
+This text includes some phrases and quotes in other languages (French, Greek, Latin, etc.). It also includes formal names for people and places which are not anglicized. Please keep the non-English characters in mind when choosing a typeface to render this text. The following is a complete inventory of the characters present in this text:
 
 
 ##### Format: `character` (Unicode hex)
