@@ -21,7 +21,7 @@ Remember: Scroll up to the FIRST error. Fix that, then re-run.
 
 *********************************************** */
 
-val lib: CiteLibrary = loadLibrary("text/arist_politics.cex")
+val lib: CiteLibrary = loadLibrary("text/count.cex")
 
 val tr: TextRepository = lib.textRepository.get
 
@@ -31,7 +31,7 @@ val corp: Corpus = tr.corpus
 
 /* Let's turn a CTS text into a Vector[String] by word-tokenizing! */
 
-/* 
+/*
 What defines a word-break? Note the [ ], making this a regex…
 … "any one of these"
 */
@@ -53,7 +53,7 @@ val tokenizedVector: Vector[String] = corp.nodes.flatMap( n => {
 	val txt: String = n.text // why is this an error?
 
 	// Split up the text into tokens
-	val tokenizedText: Vector[String] = txt.split(splitters).toVector 
+	val tokenizedText: Vector[String] = txt.split(splitters).toVector
 
 	// We don't want empty nodes! So we filter them out…
 	val noEmpties: Vector[String] = tokenizedText.filter( _.size > 0 )
@@ -72,7 +72,7 @@ val tokenHisto: Vector[(String, Int)] = {
 	// assemble words into groups…
 	val grouped: Vector[( String, Vector[String])] = tokenizedVector.groupBy( t => t).toVector
 
-	// Map the _._2 part of tuple _out of_ a Vector[String] and _into_ its size…	
+	// Map the _._2 part of tuple _out of_ a Vector[String] and _into_ its size…
 	val remapped: Vector[ ( String, Int) ] = grouped.map( t => (t._1, t._2.size))
 
 	// Sort…
@@ -84,8 +84,8 @@ val tokenHisto: Vector[(String, Int)] = {
 
 showMe(tokenHisto)
 
-/* 
-	
+/*
+
 	Let's make N-Grams
 
 */
@@ -109,10 +109,3 @@ def makeNGrams( n: Int, textVec: Vector[String] = tokenizedVector ): Vector[(Str
 }
 
 println(s"\nTry: makeNGrams(3)\n")
-
-
-
-
-
-
-

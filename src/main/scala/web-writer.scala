@@ -270,19 +270,11 @@ object webWriter {
 		val tocHeader: String = """<div class="cts_toc">Table of Contents</div>"""
 
 		val tocEntries: Vector[String] = vcorp.map( vc => {
-			val firstPassage: String = vc.corp.nodes.head.urn.passageComponent
-			val lastPassage: String = vc.corp.nodes.last.urn.passageComponent
-			if (firstPassage == lastPassage) {
+			val firstPassage: String = vc.corp.nodes.head.text
 				s"""<li class="cts_tocEntry"><span class="cts_tocIndex">${vc.index + 1}.</span>
 				<a href="${urnToFileName(vc.corp.nodes.head.urn.dropPassage, Some(vc.index))}">
 				<span class="cts_tocBit">${firstPassage}</span>
 				</a></li>"""
-			} else {
-				s"""<li class="cts_tocEntry"><span class="cts_tocIndex">${vc.index + 1}.</span>
-				<a href="${urnToFileName(vc.corp.nodes.head.urn.dropPassage, Some(vc.index))}">
-				<span class="cts_tocBit">${firstPassage}</span><span class="cts_tocHyphen">–</span><span class="cts_tocBit">${lastPassage}</span>
-				</a></li>"""
-			}
 		})
 
 		val toc: String = {
