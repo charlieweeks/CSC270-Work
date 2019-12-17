@@ -49,3 +49,31 @@ This text includes some phrases and quotes in other languages (French, Greek, La
 | `έ` (1f73) | `ή` (1f75) | `ὶ` (1f76) | `ί` (1f77) | `ὸ` (1f78) |
 | `ό` (1f79) | `ῖ` (1fd6) | `—` (2014) | `‘` (2018) | `’` (2019) |
 | `“` (201c) | `”` (201d) | `†` (2020) |
+
+## Digital Edition Information
+There is a human-readable HTML site, derived from the `.cex` file, in `html/`. The scripts that generated that site are in `/src/main/scala/`.
+
+Included Scala scripts take advantage of the code libraries in the [CITE Architecture](http://cite-architecture.org).
+
+This version of this text is [in the Public Domain](http://creativecommons.org/publicdomain/zero/1.0/):
+
+![license](http://i.creativecommons.org/p/zero/1.0/88x31.png)
+
+Edited, 12/17/2019
+
+## Running Scripts for Validation, Publication, and Analysis
+
+This repository is an SBT project for running Scala code. Everything should be reproducible.
+
+### Requirements
+
+- A Java JDK 1.8 or higher.
+- [SBT](https://www.scala-sbt.org) Installed and on the PATH.
+
+### Running
+
+- Clone this repository.
+- Navigate to this repository's root level.
+- `$ sbt console`
+- `scala> :load scripts/character-validation.sc`
+- etc.
