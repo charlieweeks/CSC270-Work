@@ -10,7 +10,9 @@ A citable digital edition.
 
 Plain-text, citable edition following the protocols of the [CITE Architecture](http://cite-architecture.org).
 
-Edited 11/1/2019.
+Produced by Charlie Weeks (@charlieweeks), an undergraduate student at Furman University, and Dr. Christopher W. Blackwell (@Eumaeus), the Louis G. Forgione Professor of Classics at Furman University.
+
+Edited 12/17/19.
 
 
 ## Character Validation
@@ -59,7 +61,6 @@ This version of this text is [in the Public Domain](http://creativecommons.org/p
 
 ![license](http://i.creativecommons.org/p/zero/1.0/88x31.png)
 
-Edited, 12/17/2019
 
 ## Running Scripts for Validation, Publication, and Analysis
 
@@ -77,3 +78,6 @@ This repository is an SBT project for running Scala code. Everything should be r
 - `$ sbt console`
 - `scala> :load scripts/character-validation.sc`
 - etc.
+
+## Collaborators
+Dr. Christopher W. Blackwell from Furman University's Classics Department
